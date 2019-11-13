@@ -14,7 +14,7 @@ const NavBar = () => (
       <Menu.Item header>
         <Image
           size="mini"
-          src="/ico.png"
+          src="ico.png"
           style={{ maxHeight: "20px", maxWidth: "20px" }}
         />
         Kurius
