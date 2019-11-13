@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kurius-react/static/css/main.b100e6da.chunk.css",
+    "main.js": "/kurius-react/static/js/main.659a4dfd.chunk.js",
+    "main.js.map": "/kurius-react/static/js/main.659a4dfd.chunk.js.map",
+    "runtime-main.js": "/kurius-react/static/js/runtime-main.5a670ccf.js",
+    "runtime-main.js.map": "/kurius-react/static/js/runtime-main.5a670ccf.js.map",
+    "static/js/2.ad05d5aa.chunk.js": "/kurius-react/static/js/2.ad05d5aa.chunk.js",
+    "static/js/2.ad05d5aa.chunk.js.map": "/kurius-react/static/js/2.ad05d5aa.chunk.js.map",
+    "index.html": "/kurius-react/index.html",
+    "precache-manifest.2e95728ac6fc376e0358fe1342323ac2.js": "/kurius-react/precache-manifest.2e95728ac6fc376e0358fe1342323ac2.js",
+    "service-worker.js": "/kurius-react/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/kurius-react/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/kurius-react/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a670ccf.js",
+    "static/js/2.ad05d5aa.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.659a4dfd.chunk.js"
+  ]
+}
