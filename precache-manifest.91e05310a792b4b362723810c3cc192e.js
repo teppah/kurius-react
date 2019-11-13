@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "155dd70fcceda6ff76d50e271d293325",
+    "revision": "ff0cd2600cac2b85c0a387ee95e01453",
     "url": "/kurius-react/index.html"
   },
   {
