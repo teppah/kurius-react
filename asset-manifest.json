@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kurius-react/static/css/main.34de6062.chunk.css",
-    "main.js": "/kurius-react/static/js/main.4c580e14.chunk.js",
-    "main.js.map": "/kurius-react/static/js/main.4c580e14.chunk.js.map",
+    "main.js": "/kurius-react/static/js/main.899d061f.chunk.js",
+    "main.js.map": "/kurius-react/static/js/main.899d061f.chunk.js.map",
     "runtime-main.js": "/kurius-react/static/js/runtime-main.5a670ccf.js",
     "runtime-main.js.map": "/kurius-react/static/js/runtime-main.5a670ccf.js.map",
     "static/css/2.6a108853.chunk.css": "/kurius-react/static/css/2.6a108853.chunk.css",
     "static/js/2.84b53e35.chunk.js": "/kurius-react/static/js/2.84b53e35.chunk.js",
     "static/js/2.84b53e35.chunk.js.map": "/kurius-react/static/js/2.84b53e35.chunk.js.map",
     "index.html": "/kurius-react/index.html",
-    "precache-manifest.91e05310a792b4b362723810c3cc192e.js": "/kurius-react/precache-manifest.91e05310a792b4b362723810c3cc192e.js",
+    "precache-manifest.f5f05fce08290ba46e767c8ae23dbdab.js": "/kurius-react/precache-manifest.f5f05fce08290ba46e767c8ae23dbdab.js",
     "service-worker.js": "/kurius-react/service-worker.js",
     "static/css/2.6a108853.chunk.css.map": "/kurius-react/static/css/2.6a108853.chunk.css.map",
     "static/css/main.34de6062.chunk.css.map": "/kurius-react/static/css/main.34de6062.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.6a108853.chunk.css",
     "static/js/2.84b53e35.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.4c580e14.chunk.js"
+    "static/js/main.899d061f.chunk.js"
   ]
 }
