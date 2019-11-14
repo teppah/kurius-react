@@ -9,7 +9,7 @@ import {
 } from "semantic-ui-react";
 
 const NavBar = () => (
-  <Menu pointing secondary>
+  <Menu pointing secondary inverted>
     <Container>
       <Menu.Item header>
         <Image

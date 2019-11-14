@@ -16,7 +16,7 @@ const KuriusHeading = () => (
 const styles = {
   container: {
     // padding: "5em 5em",
-    paddingBottom: "20em",
+    paddingBottom: "17em",
     clipPath: "polygon(0 0, 100% 0, 100% 100%, )",
     marginBottom: "-10em"
   },
