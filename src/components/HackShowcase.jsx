@@ -10,7 +10,7 @@ class HackShowcase extends Component {
   }
   render() {
     return (
-      <Container text>
+      <Container >
         <Item.Group>
           <Item>
             <Item.Image
