@@ -3,7 +3,7 @@ import { Container, Header, Button, Icon } from "semantic-ui-react";
 
 const KuriusHeading = () => (
   <Container text textAlign="center" style={styles.container}>
-    <Header as="h1" content="Kurius" style={styles.kuriusHeader}>
+    <Header as="h1" style={styles.kuriusHeader}>
       Kurius
     </Header>
     <Header as="h2" style={styles.inspQuote}>
