@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be97277d59bd1b1e70d1dae957a9c4ca",
+    "revision": "6fcf17715869f4a5f495020c697a3273",
     "url": "/kurius-react/index.html"
   },
   {
-    "revision": "cab117173cbbf020ca48",
+    "revision": "a23895a4c27f7d2f3777",
     "url": "/kurius-react/static/css/2.69a8668f.chunk.css"
   },
   {
-    "revision": "347188cc38376123f42d",
+    "revision": "b524ea3a544a679b6111",
     "url": "/kurius-react/static/css/main.85fb57db.chunk.css"
   },
   {
-    "revision": "cab117173cbbf020ca48",
-    "url": "/kurius-react/static/js/2.ec45ac41.chunk.js"
+    "revision": "a23895a4c27f7d2f3777",
+    "url": "/kurius-react/static/js/2.e5545ab7.chunk.js"
   },
   {
-    "revision": "347188cc38376123f42d",
-    "url": "/kurius-react/static/js/main.7618b8e8.chunk.js"
+    "revision": "b524ea3a544a679b6111",
+    "url": "/kurius-react/static/js/main.0204a09d.chunk.js"
   },
   {
     "revision": "1857e09ab2b611efeb9f",
