@@ -1,21 +1,9 @@
 import React from "react";
-import { Container, Header, Button, Icon } from "semantic-ui-react";
-
-const KuriusHeading = () => (
-  <Container text textAlign="center" style={styles.container}>
-    <Header as="h1" style={styles.kuriusHeader}>
-      Kurius
-    </Header>
-    <Header as="h2" style={styles.inspQuote}>
-      "The happiest moment I felt, is the moment when I realized my ability to
-      create." -Dr Hazem Ali
-    </Header>
-  </Container>
-);
+import { Container, Header, Image, Grid } from "semantic-ui-react";
 
 const styles = {
   container: {
-    // padding: "5em 5em",
+    padding: "5em 5em",
     paddingBottom: "17em",
     clipPath: "polygon(0 0, 100% 0, 100% 100%, )",
     marginBottom: "-10em"
@@ -24,7 +12,7 @@ const styles = {
     fontSize: "4em",
     fontWeight: "normal",
     marginBottom: "0",
-    marginTop: "2em",
+    // marginTop: "2em",
     color: "white"
   },
   inspQuote: {
@@ -34,5 +22,22 @@ const styles = {
     color: "white"
   }
 };
+
+const KuriusHeading = () => (
+  <Container text style={styles.container}>
+    <Grid centered verticalAlign="middle" columns={1} >
+      <Grid.Column textAlign="center" verticalAlign="middle" style={{display: "flex", alignItems: "center",}}>
+        <Image size="small" src="ico.png" />
+        <Header as="h1" style={styles.kuriusHeader}>
+          Kurius
+        </Header>
+        <Header as="h2" style={styles.inspQuote}>
+          "The happiest moment I felt, is the moment when I realized my ability
+          to create." -Dr Hazem Ali
+        </Header>
+      </Grid.Column>
+    </Grid>
+  </Container>
+);
 
 export default KuriusHeading;
