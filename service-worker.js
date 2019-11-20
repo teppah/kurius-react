@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kurius-react/precache-manifest.954f0cb3b8b95314d4c5367d1ad8fd4e.js"
+  "/kurius-react/precache-manifest.94cd813c1cc4c5b66629b113a1f8c613.js"
 );
 
 self.addEventListener('message', (event) => {
