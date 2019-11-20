@@ -20,16 +20,16 @@ const NavBar = () => (
         Kurius
       </Menu.Item>
       <Menu.Menu position="right">
-        <Menu.Item as="a" name="home">
+        <Menu.Item as="a" name="home" href="#home">
           Home
         </Menu.Item>
-        <Menu.Item as="a" name="our-team">
+        {/* <Menu.Item as="a" name="our-team">
           Our Team
         </Menu.Item>
         <Menu.Item as="a" name="our-vision">
           Our Vision
-        </Menu.Item>
-        <Menu.Item as="a" name="events">
+        </Menu.Item> */}
+        <Menu.Item as="a" name="events" href="#events">
           Events
         </Menu.Item>
         <Menu.Item as="a" name="partner">

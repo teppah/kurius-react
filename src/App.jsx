@@ -15,10 +15,12 @@ import { Container, Segment, Grid } from "semantic-ui-react";
 function App() {
   return (
     <div>
-      <AngledGradient>
-        <NavBar />
-        <KuriusHeading />
-      </AngledGradient>
+      <section id="home">
+        <AngledGradient>
+          <NavBar />
+          <KuriusHeading />
+        </AngledGradient>
+      </section>
 
       <Container fluid>
         <Grid centered style={{ marginBottom: "10em" }}>
@@ -70,13 +72,16 @@ function App() {
           </Grid.Row>
         </Grid>
       </Container>
-      <AngledGradient>
-        <BigHeadline headline="What We Offer" />
-      </AngledGradient>
-      <Container fluid style={{ marginTop: "4em", marginBottom: "4em" }}>
-        <div style={{ marginTop: "4em" }}></div>
-        <HackShowcase />
-      </Container>
+
+      <section id="events">
+        <AngledGradient>
+          <BigHeadline headline="What We Offer" />
+        </AngledGradient>
+        <Container fluid style={{ marginTop: "4em", marginBottom: "4em" }}>
+          <div style={{ marginTop: "4em" }}></div>
+          <HackShowcase />
+        </Container>
+      </section>
     </div>
   );
 }
