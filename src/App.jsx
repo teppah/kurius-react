@@ -14,18 +14,22 @@ import { Container, Segment, Grid } from "semantic-ui-react";
 
 function App() {
   return (
-    <Container fluid>
+    <div>
       <AngledGradient>
         <NavBar />
         <KuriusHeading />
       </AngledGradient>
-      <Grid centered style={{ marginBottom: "10em" }}>
-        <Grid.Column width={12}>
-          <Segment>
-            <PhotoGallery />
-          </Segment>
-        </Grid.Column>
-      </Grid>
+
+      <Container fluid>
+        <Grid centered style={{ marginBottom: "10em" }}>
+          <Grid.Column width={12}>
+            <Segment>
+              <PhotoGallery />
+            </Segment>
+          </Grid.Column>
+        </Grid>
+      </Container>
+
       <AngledGradient>
         <BigHeadline
           headline="Who We Are"
@@ -33,7 +37,7 @@ function App() {
         />
       </AngledGradient>
 
-      <Container fluid style={{ marginTop: "4em", marginBottom: "4em" }}>
+      <div style={{ marginTop: "4em", marginBottom: "4em" }}>
         {/* <AngledGradient>
           <BigHeadline
             headline="What Is a Kurius Hack?"
@@ -46,7 +50,7 @@ function App() {
             'Our program is a 5-week long "hack" during which participants learn to code by tackling a specific problem in a guided workshop experience. They are held twice a week: once after school and once during the weekend.'
           }
         />
-      </Container>
+      </div>
 
       <Container style={{ marginTop: "8em", marginBottom: "8em" }}>
         <Grid centered stackable verticalAlign={"middle"}>
@@ -66,15 +70,14 @@ function App() {
           </Grid.Row>
         </Grid>
       </Container>
-
+      <AngledGradient>
+        <BigHeadline headline="What We Offer" />
+      </AngledGradient>
       <Container fluid style={{ marginTop: "4em", marginBottom: "4em" }}>
-        <AngledGradient>
-          <BigHeadline headline="What We Offer"/>
-        </AngledGradient>
-        <div style={{marginTop: "4em"}}></div>
+        <div style={{ marginTop: "4em" }}></div>
         <HackShowcase />
       </Container>
-    </Container>
+    </div>
   );
 }
 
