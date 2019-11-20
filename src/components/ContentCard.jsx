@@ -8,7 +8,7 @@ const ContentCard = props => {
         <Card.Content>
           <Card.Header
             style={{
-              fontSize: "2em",
+              fontSize: "1.5em",
               marginBottom: "1.2em"
             }}
           >
