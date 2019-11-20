@@ -43,10 +43,10 @@ const NavBar = () => (
         <Menu.Item as="a" name="events" href="#events">
           Events
         </Menu.Item>
-        <Menu.Item as="a" name="partner">
+        <Menu.Item as="a" name="partner" href="#join">
           Partner
         </Menu.Item>
-        <Menu.Item as="a" name="join-us">
+        <Menu.Item as="a" name="join-us" href="#join">
           Join Us
         </Menu.Item>
       </Menu.Menu>

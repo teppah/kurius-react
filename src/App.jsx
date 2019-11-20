@@ -9,15 +9,18 @@ import BigHeadline from "./components/BigHeadline";
 import MediumDescription from "./components/MediumDescription";
 import InfoCard from "./components/InfoCard";
 import HackShowcase from "./components/HackShowcase";
+import ContentCard from "./components/ContentCard";
+import Footer from "./components/Footer";
 import "semantic-ui-css/semantic.min.css";
-import { Container, Segment, Grid } from "semantic-ui-react";
+import { Container, Segment, Grid, Button } from "semantic-ui-react";
 
 function App() {
   return (
     <div>
+      <NavBar />
+
       <section id="home">
         <AngledGradient>
-          <NavBar />
           <KuriusHeading />
         </AngledGradient>
       </section>
@@ -77,10 +80,45 @@ function App() {
         <AngledGradient>
           <BigHeadline headline="What We Offer" />
         </AngledGradient>
-        <Container fluid style={{ marginTop: "4em", marginBottom: "4em" }}>
+        <Container fluid style={{ marginTop: "4em", marginBottom: "3em" }}>
           <div style={{ marginTop: "4em" }}></div>
           <HackShowcase />
         </Container>
+      </section>
+
+      <section id="join" style={{marginBottom: "5em"}}>
+        <AngledGradient>
+          <div style={{paddingBottom: "2em"}}>
+            <BigHeadline
+              // headline="What Is a Kurius Hack?"
+              text="Interested in what we're doing?"
+            />
+            <Grid centered style={{ marginBottom: "3em" }} doubling>
+              <Grid.Column width={6}>
+                <ContentCard title="Let's partner up!">
+                  <Button
+                    as="a"
+                    href="https://drive.google.com/file/d/1wmueIeouRvrJiZz_CmYNFoWvvBpHSrxI/view?usp=sharing"
+                    color="google plus"
+                  >
+                    Prospectus
+                  </Button>
+                </ContentCard>
+              </Grid.Column>
+              <Grid.Column width={6}>
+                <ContentCard title="Participate in a Hack!">
+                  <Button as="a" href="#" target="_blank" color="linkedin">
+                    Participate
+                  </Button>
+                </ContentCard>
+              </Grid.Column>
+            </Grid>
+          </div>
+        </AngledGradient>
+      </section>
+
+      <section id="footer">
+        <Footer></Footer>
       </section>
     </div>
   );
