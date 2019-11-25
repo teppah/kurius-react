@@ -13,7 +13,7 @@ class MediumDescription extends Component {
   render() {
     return (
       <Container textAlign="center" style={styles.container}>
-        <Responsive {...Responsive.onlyLargeScreen}>
+        <Responsive minWidth="992">
           <Header as="h3" style={styles.header}>
             {this.state.headline}
           </Header>
@@ -21,7 +21,7 @@ class MediumDescription extends Component {
             {this.state.text}
           </Header>
         </Responsive>
-        <Responsive {...Responsive.onlyMobile}>
+        <Responsive maxWidth="992"> 
           <Header as="h3" style={styles.headerMobile}>
             {this.state.headline}
           </Header>
@@ -36,7 +36,8 @@ class MediumDescription extends Component {
 
 const styles = {
   container: {
-    padding: "6em"
+    paddingTop: "6em",
+    paddingBottom: "6em",
   },
   header: {
     textTransform: "uppercase",

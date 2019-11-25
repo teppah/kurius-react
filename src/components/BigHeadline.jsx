@@ -12,31 +12,37 @@ class BigHeadline extends Component {
 
   render() {
     return (
-      <Container textAlign="center" style={styles.container}>
+      <div>
         <Responsive minWidth="992">
-          <Header as="h3" style={styles.header}>
-            {this.state.headline}
-          </Header>
-          <Header as="h1" style={styles.text}>
-            {this.state.text}
-          </Header>
+          <Container textAlign="center" style={styles.container}>
+            <Header as="h3" style={styles.header}>
+              {this.state.headline}
+            </Header>
+            <Header as="h1" style={styles.text}>
+              {this.state.text}
+            </Header>
+          </Container>
         </Responsive>
         <Responsive maxWidth="992">
-          <Header as="h3" style={styles.headerMobile}>
-            {this.state.headline}
-          </Header>
-          <Header as="h1" style={styles.textMobile}>
-            {this.state.text}
-          </Header>
+          <Container textAlign="center" fluid style={styles.container}>
+            <Header as="h3" style={styles.headerMobile}>
+              {this.state.headline}
+            </Header>
+            <Header as="h1" style={styles.textMobile}>
+              {this.state.text}
+            </Header>
+          </Container>
         </Responsive>
-      </Container>
+      </div>
     );
+    // TODO: remove useless garbage aka nested containers
   }
 }
 
 const styles = {
   container: {
-    padding: "6em"
+    paddingTop: "6em",
+    paddingBottom: "6em"
   },
   header: {
     textTransform: "uppercase",
@@ -51,12 +57,12 @@ const styles = {
   headerMobile: {
     textTransform: "uppercase",
     marginBottom: "2em",
-    fontSize: "1.2em",
+    fontSize: "1.3em",
     color: "rgba(255, 255, 255, 0.6)"
   },
   textMobile: {
     color: "white",
-    fontSize: "1.7em"
+    fontSize: "1.5em"
   }
 };
 

@@ -18,7 +18,6 @@ function App() {
   return (
     <div>
       <NavBar />
-
       <section id="home">
         <AngledGradient>
           <KuriusHeading />
