@@ -1,11 +1,8 @@
-import React, { Component, PropTypes } from "react";
+import React from "react";
 import {
-  Segment,
   Menu,
   Container,
   Image,
-  Dropdown,
-  Header
 } from "semantic-ui-react";
 
 const NavBar = () => (
