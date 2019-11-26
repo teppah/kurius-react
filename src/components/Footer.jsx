@@ -24,7 +24,7 @@ const Footer = props => {
                       <Icon name="facebook" /> Facebook
                     </Button>
                   </List.Item>
-                  <List.Item as="a">
+                  <List.Item as="a" href="https://www.instagram.com/kuriusmtl/" target="_blank">
                     <Button color="instagram">
                       <Icon name="instagram" /> Instagram
                     </Button>
