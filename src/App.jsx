@@ -1,6 +1,7 @@
 import React from "react";
 // import logo from './logo.svg';
 import "./App.css";
+import 'semantic-ui-less/semantic.less';
 import NavBar from "./components/NavBar";
 import KuriusHeading from "./components/KuriusHeading";
 import PhotoGallery from "./components/PhotoGallery";
@@ -11,7 +12,6 @@ import InfoCard from "./components/InfoCard";
 import HackShowcase from "./components/HackShowcase";
 import ContentCard from "./components/ContentCard";
 import Footer from "./components/Footer";
-import "semantic-ui-css/semantic.min.css";
 import { Container, Segment, Grid, Button } from "semantic-ui-react";
 
 function App() {
