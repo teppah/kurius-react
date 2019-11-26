@@ -47,12 +47,12 @@ const styles = {
   header: {
     textTransform: "uppercase",
     marginBottom: "2em",
-    fontSize: "2em",
+    fontSize: "1.4em",
     color: "rgba(255, 255, 255, 0.6)"
   },
   text: {
     color: "white",
-    fontSize: "3em"
+    fontSize: "2.3em"
   },
   headerMobile: {
     textTransform: "uppercase",
