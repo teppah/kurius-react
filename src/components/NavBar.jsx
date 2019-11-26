@@ -28,7 +28,7 @@ const NavBar = () => (
         Kurius
       </Menu.Item>
       <Menu.Menu position="right">
-        <Menu.Item as="a" name="home" href="#home">
+          <Menu.Item as="a" name="home" href="#home">
           Home
         </Menu.Item>
         {/* <Menu.Item as="a" name="our-team">

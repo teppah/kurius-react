@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Header, Image, Grid } from "semantic-ui-react";
+import { Container, Header, Image, Grid, Button, Icon } from "semantic-ui-react";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
 
@@ -44,6 +44,12 @@ const KuriusHeading = () => (
             ability to create." -Dr Hazem Ali
           </Header>
         </Typist>
+        <Button as="a" href="https://www.facebook.com/KuriusMtl/" target="_blank" color="facebook" style={{marginBottom:"0.4em"}}>
+          <Icon name="facebook" /> Facebook
+        </Button>
+        <Button as="a" href="https://www.instagram.com/kuriusmtl/" target="_blank" color="instagram">
+          <Icon name="instagram" /> Instagram
+        </Button>
       </Grid.Column>
     </Grid>
   </Container>

@@ -93,23 +93,20 @@ function App() {
               text="Interested in what we're doing?"
             />
             <Grid centered style={{ marginBottom: "3em" }} doubling>
-              <Grid.Column width={6}>
-                <ContentCard title="Let's partner up!">
-                  <Button
-                    as="a"
-                    href="https://drive.google.com/file/d/1wmueIeouRvrJiZz_CmYNFoWvvBpHSrxI/view?usp=sharing"
-                    color="google plus"
-                  >
-                    Prospectus
-                  </Button>
-                </ContentCard>
+              <Grid.Column stretched width={3} largeScreen="4" tablet="6" mobile="6">
+                <Button
+                  as="a"
+                  href="https://docs.google.com/document/d/1QYAsvCj6y6I3HhfShko_QIiB98fkFsxoFY0Ww8MR-VE/edit?usp=sharing"
+                  color="google plus"
+                  target="_blank"
+                >
+                  Sponsor
+                </Button>
               </Grid.Column>
-              <Grid.Column width={6}>
-                <ContentCard title="Participate in a Hack!">
-                  <Button as="a" href="#" target="_blank" color="linkedin">
-                    Participate
-                  </Button>
-                </ContentCard>
+              <Grid.Column stretched width={3} largeScreen="4" tablet="6" mobile="6">
+                <Button as="a" href="mailto:info@kurius.ca?subject=I'm interested in participating!" onClick={() => alert("Please send us an email with your name, your school and your details! (info@kurius.ca)")} target="_blank" color="linkedin">
+                  Participate
+                </Button>
               </Grid.Column>
             </Grid>
           </div>
