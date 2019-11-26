@@ -96,11 +96,11 @@ function App() {
               <Grid.Column stretched width={3} largeScreen="4" tablet="6" mobile="6">
                 <Button
                   as="a"
-                  href="https://docs.google.com/document/d/1QYAsvCj6y6I3HhfShko_QIiB98fkFsxoFY0Ww8MR-VE/edit?usp=sharing"
+                  href="https://drive.google.com/file/d/1fQzy9l5rQ6paHCPWBLX7pXgu5I_DICVg/view?usp=sharing"
                   color="google plus"
                   target="_blank"
                 >
-                  Sponsor
+                  Partner
                 </Button>
               </Grid.Column>
               <Grid.Column stretched width={3} largeScreen="4" tablet="6" mobile="6">

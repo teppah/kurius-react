@@ -34,7 +34,7 @@ const KuriusHeading = () => (
         verticalAlign="middle"
         style={{ display: "flex", alignItems: "center" }}
       >
-        <Image size="small" src="ico.png" />
+        <Image size="small" src="whitekurius.png" />
         <Header as="h1" style={styles.kuriusHeader}>
           Kurius
         </Header>
